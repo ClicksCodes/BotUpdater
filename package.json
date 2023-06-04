@@ -1,0 +1,23 @@
+{
+  "name": "botupdater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "node-schedule": "^2.1.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node-schedule": "^2.1.0",
+    "typescript": "^5.0.0"
+  }
+}
