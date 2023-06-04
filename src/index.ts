@@ -13,7 +13,7 @@ const bots: Record<string, string> = {
 
 const loginPromises = [];
 const re = await (await fetch('https://clicks.codes/api/season')).json();
-if (re.daysIntoSeason <= 1 || true) {
+if (re.daysIntoSeason <= 1) {
     for(let token of Config.tokens) {
         let client = new Discord.Client({
             intents: ["Guilds"]
